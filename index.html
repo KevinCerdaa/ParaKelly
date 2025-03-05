@@ -46,32 +46,34 @@
         }
         p
         {
+            text-align: justify;
             color: #5C2028;
         }
         a {
+            text-align: center;
             margin: 20px;
-            display: flex; /* Para centrar el texto dentro */
-            justify-content: center; /* Centra el texto horizontalmente */
-            align-items: center; /* Centra el texto verticalmente */
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
             padding: 12px 20px;
             border: 0;
             border-radius: 10px;
             box-shadow: 2px 2px 5px black;
             background-color: #F0A2C3;
             text-decoration: none;
-            color: #ffffff;
+            color: #A6566B;
             font-weight: bold;
             font-size: 16px;
-            width: 200px; /* Ancho fijo */
-            height: 25px; /* Alto fijo */
+            width: 200px;
+            height: 25px;
             transition: all 0.5s ease;
         }
         a:hover {
             cursor: pointer;
             border-radius: 10px;
-            box-shadow: 4px 4px 4px black;
-            background-color: #F0A2C3;
-            color: rgb(187, 25, 44);
+            box-shadow: 4px 4px 4px rgb(138, 9, 95);
+            background-color: #ff92d5;
+            color: #e72650;
         }
     </style>
 </head>
@@ -94,9 +96,13 @@
     </div>
     <div class="caja">
         <div class="cabecera">
-            <h3>Botones:</h3>
+            <h3 style="text-align: center;">Tus cartas</h3>
         </div>
-        <a href="carta14feb.html">Carta del 14 de Febrero</a>
+        <div class="cajaBotones">
+            <a href="carta14feb.html">Carta del 14 de Febrero</a>
+            <a href="tumitodo.html">Tú, mi todo</a>
+        </div>
+        
     </div>
 </body>
 
